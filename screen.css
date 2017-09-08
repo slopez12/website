@@ -49,3 +49,25 @@ table {
 
 /* End Reset CSS */
 /* Begin Site Styles */
+
+h1 {
+	font-family:arial;
+	font-size: 40px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+h2 {
+	margin:15px;
+	font-family:arial;
+	font-size: 20px;
+	font-style:normal;
+	text-align: left;
+}
+p {
+	margin: 10px;
+	text-align:justify;
+	font-family: arial;
+	font-size:12px;
+	line-height: 20px
+}
