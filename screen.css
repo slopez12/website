@@ -64,10 +64,17 @@ h2 {
 	font-style:normal;
 	text-align: left;
 }
+
 p {
 	margin: 10px;
 	text-align:justify;
 	font-family: arial;
 	font-size:12px;
 	line-height: 20px
+}
+
+/* Responsive Images */
+img {
+	display: block;
+	max-width: 100%;
 }
