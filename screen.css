@@ -55,6 +55,7 @@ html {
 	moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+	text-rendering: : optimizeLegibility
 	font-size: 1.125em; /* 18 divided by 16 = 1.125 */
 	font-family: arial;
 	line-height: 1.22222222em; /*22/18-1.222*/
