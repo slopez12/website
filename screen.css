@@ -50,27 +50,34 @@ table {
 /* End Reset CSS */
 /* Begin Site Styles */
 
-h1 {
-	font-family:arial;
-	font-size: 40px;
-	font-style:normal;
-	font-weight:bold;
-}
-
-h2 {
-	margin:15px;
-	font-family:arial;
-	font-size: 20px;
-	font-style:normal;
-	text-align: left;
-}
-
-p {
-	margin: 10px;
-	text-align:justify;
+/* Using modular scale http://www.modularscale.com/?18&px&1.667 */
+html {
+	moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-size: 1.125em; /* 18 divided by 16 = 1.125 */
 	font-family: arial;
-	font-size:12px;
-	line-height: 20px
+	line-height: 1.22222222em; /*22/18-1.222*/
+	padding-top: 2.44444444em; /* 44/18 = 2.4444444 */
+	padding-right:1.22222222em;
+	padding-left: 1.22222222em;
+}
+figure {
+	padding-bottom: 1.22222222em;
+}
+h1 + p {
+		text-indent: 1.22222222em;
+}
+p {
+	padding-bottom: 1.22222222em;
+	text-align:justify;
+	font-size:1.125em;
+	line-height: 1.22222222em;
+}
+h1 {
+	text-indent: 0;
+	font-size: 2.778em; / * 50.02 / 18 = 2.777 */
+	line-height: 1.319em; /* 3 gridlines (22px); 66/50.02=1.319 */
 }
 
 /* Responsive Images */
