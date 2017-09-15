@@ -71,7 +71,7 @@ figure, p {
 
 h1 {
 	text-indent: 0;
-	font-size: 1.6666em; / * 45 / 18 = 2.5 */
+	font-size: 2.77777em; / * 45 / 18 = 2.5 */
 	line-height: 1.319em; /* 3 gridlines (22px); 66/50.02=1.319 */
 	text-align: center;
 	font-weight: bold;
