@@ -61,16 +61,12 @@ html {
 	padding-top: 2.44444444em; /* 44/18 = 2.4444444 */
 	padding-right:1.22222222em;
 	padding-left: 1.22222222em;
-	background-color:
+	background-color:#e8f4f9
 }
 
 figure, p {
 	padding-bottom: 1.2em;
-}
-
-h1 + p {
-		text-indent: 1.22222222em;
-		text-align: center;
+	text-align: center;
 }
 
 h1 {
@@ -88,9 +84,11 @@ img {
 	max-width: 100%;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	text-align: center;
 }
 
 p {
+	text-indent: 0;
 	padding-bottom: 1.22222222em;
 	text-align:justify;
 	font-size:1.125em;
