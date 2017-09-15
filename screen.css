@@ -57,34 +57,37 @@ html {
 	-ms-text-size-adjust: 100%;
 	text-rendering: : optimizeLegibility
 	font-size: 1.125em; /* 18 divided by 16 = 1.125 */
-	font-family: serif;
 	line-height: 1.22222222em; /*22/18-1.222*/
 	padding-top: 2.44444444em; /* 44/18 = 2.4444444 */
 	padding-right:1.22222222em;
 	padding-left: 1.22222222em;
+	background-color:
 }
 
 figure, p {
-	padding-bottom: 1.22222222em;
+	padding-bottom: 1.2em;
 }
 
 h1 + p {
 		text-indent: 1.22222222em;
+		text-align: center;
 }
 
 h1 {
 	text-indent: 0;
-	font-size: 2.778em; / * 50.02 / 18 = 2.777 */
+	font-size: 1.6666em; / * 45 / 18 = 2.5 */
 	line-height: 1.319em; /* 3 gridlines (22px); 66/50.02=1.319 */
+	text-align: center;
 	font-weight: bold;
+	font-family: "Times New Roman" Times, serif;
 }
 
 img {
 	display: block;
 	margin: auto;
 	max-width: 100%;
-	padding-top: 2.44444444em;
-	padding-bottom: 2.44444444em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 p {
@@ -92,4 +95,5 @@ p {
 	text-align:justify;
 	font-size:1.125em;
 	line-height: 1.22222222em;
+	font-family: serif;
 }
