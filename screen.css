@@ -51,6 +51,11 @@ table {
 /* Begin Site Styles */
 
 /* Using modular scale http://www.modularscale.com/?18&px&1.667 */
+
+/* Base */
+/* Simple, HTML/element selectors */
+/* Typographic styles; colors; spacing (above & below) */
+
 html {
 	moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -79,15 +84,6 @@ h1 {
 	font-family: Palatino, serif, Arial;
 }
 
-img {
-	display: block;
-	margin: auto;
-	max-width: 100%;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	text-align: center;
-}
-
 p {
 	text-indent: 0;
 	padding-bottom: 1.22222222em;
@@ -95,4 +91,43 @@ p {
 	font-size:1.125em;
 	line-height: 1.22222222em;
 	font-family: serif;
+}
+
+/* Layout Styles */
+/* ID selectors (major landmark/global HTML structures) */
+#header{
+	/* Layout styles go here */
+}
+
+
+/* Modular Styles */
+/*
+	Class selecotrs, sometimes descendent/child selectors,
+	repeating styles throughout a site/page
+*/
+.agenda {
+	/* Repeating styles */
+}
+.agenda > li {
+	/* Only list those inside the agenda */
+}
+
+/* State Styles */
+/* JavaScript or media-query dependent styles */
+
+@media screen and (min-width:680px) {
+	#page{
+		width: 80%;
+	}
+}
+
+
+/* Responsive images */
+img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
 }
